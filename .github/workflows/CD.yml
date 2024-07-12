@@ -30,7 +30,7 @@ jobs:
       run: gcloud components install gke-gcloud-auth-plugin
 
     - name: Get GKE credentials
-      run: gcloud container clusters get-credentials cluster-1 --zone us-central1-c
+      run: gcloud container clusters get-credentials cluster-2 --zone us-central1-c
 
     - name: Log in to Docker Hub
       uses: docker/login-action@v1
