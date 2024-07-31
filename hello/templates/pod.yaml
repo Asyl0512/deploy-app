@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: {{ .Values.podname }}
   labels:
-    team: kaizen
+    team: kai
 spec:
   containers:
   - name: hello-world
