@@ -4,7 +4,7 @@ metadata:
   name: {{ .Values.service.name }}
 spec:
   selector:
-    team: kaizen
+    team: kai
   ports:
     - protocol: TCP
       port: {{ .Values.service.port }}
